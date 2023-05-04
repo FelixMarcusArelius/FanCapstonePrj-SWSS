@@ -1,8 +1,3 @@
-/*
-YF‐ S201 Water Flow Sensor
-Water Flow Sensor output processed to read in litres/hour
-Adaptation Courtesy: www.hobbytronics.co.uk
-*/
 
 // version 1.0
 // April-11-2023
@@ -17,12 +12,12 @@ Adaptation Courtesy: www.hobbytronics.co.uk
 // #include <NTPClient.h>
 #include <iostream>
 
-const char* ssid = "DOPPELGAENGER";
-const char* password = "1234567890";
+const char* ssid = "";
+const char* password = "";
 // const char* ntpServer = "pool.ntp.org";
 
-#define FIREBASE_HOST "watersensor-felix-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "AX56vmfMvK5N7rhmwFxCWlAC1TZqoRD0gLuRse8G"
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 
 // variables for connection & timestamp.
 volatile uint32_t wifiLocalIP = WiFi.localIP();
